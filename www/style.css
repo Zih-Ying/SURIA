@@ -1,0 +1,126 @@
+/*colorful hr*/
+hr {
+    border: 0;
+    padding: 3px;
+    background: linear-gradient(135deg, transparent, #ff2a2a, orange, yellow, green, #007bff, #c700c7, transparent);
+    --mask-image: repeating-linear-gradient(135deg, #000 0px, #000 1px, transparent 1px, transparent 6px);
+    -webkit-mask-image: var(--mask-image);
+}
+.hr-twill {
+    background: repeating-linear-gradient(225deg, #a2a9b6 0px, #a2a9b6 1px,transparent 1px, transparent 6px) !important;
+    --mask-image: repeating-linear-gradient(225deg, #000 0px, #000 1px, transparent 1px, transparent 6px) !important;
+    -webkit-mask-image: var(--mask-image) !important;
+}
+
+/*customize div*/
+.div-moon {
+    padding: 30px;
+    text-align: center;
+/*    font-family: 'MJXc-TeX-math-Iw';*/
+    background-image: url(https://media.tenor.com/f4GKnTi51DwAAAAC/pixel-art.gif);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
+
+.div-moon h1, .div-moon h2, .div-moon h3, .div-moon h4{
+  color: white;
+}
+
+/*remove card title*/
+/*#define_var1 .card-header, #define_var2 .card-header, #define_var3 .card-header { display: contents;}*/
+
+/*notification width*/
+#shiny-notification-panel {
+    width: 60% !important;
+}
+
+/*text style*/
+.bold1 {
+    color: #db4700;
+}
+.waitress-overlay-content h4 {
+    font-family: monospace;
+    font-style: oblique;
+    font-size: larger;
+    font-weight: bold;
+}
+
+/* border (change on status = primary) */
+/* top only */
+.card.bs4Dash.card-primary.card-outline {
+    border-image: linear-gradient(to right, #f7af5c, #F75000, #19548e, #003060, #003060);
+    border-width: 3px;
+    border-image-slice: 1;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+}
+
+/* download button (change on status = primary) */
+.bttn-unite.bttn-primary {
+    height: 22px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 13px;
+    line-height: 1px;
+}
+
+/* table & list */
+div.content-wrapper li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+table {
+    margin: 10px;
+    width: max-content;
+}
+th {
+    background: #284f74;
+    color: #ffffff;
+    padding: 10px;
+/*    height:65px;*/
+}
+td {
+    background: #ffffff;
+    padding: 10px;
+/*    height:40px;*/
+}
+tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+/* footer */
+.float-right {
+    text-align-last: right;
+}
+
+/* navbar */
+/*nav {
+    background-color: #343a40 !important;
+}*/
+
+/* RSF tree */
+div[data-value="Detail"] > div#rf_vimp {
+    min-height: 300px;
+}
+div[data-value="Plot"] > div#rf_oob_err_rate_plot, div#rf_plot_variable, div#rf_tree_plt {
+    min-height: 300px;
+}
+div#rf_tree_plt img {
+    /* width: inherit; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.row {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#RSF div {
+    padding: 1px;
+}
