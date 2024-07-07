@@ -1,8 +1,10 @@
 # SURIA
 SURIA: An interactive web-based platform for survival analysis. 
 
-# Open the website
-You can use the following code to open the website if you have R installed.
+# The website
+You can visit the website at [https://zihyingli.shinyapps.io/Python/](https://zihyingli.shinyapps.io/MyShinyApp/).
+
+Alternatively, if you have R installed, you can use the following code to open the website.
 
     library(shiny)
     
