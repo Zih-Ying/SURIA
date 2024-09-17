@@ -1,5 +1,6 @@
 # SURIA
-SURIA: An interactive web-based platform for survival analysis. 
+
+**SURIA: An interactive web-based platform for survival analysis.**
 
 This website aims to allow non-programmers to analyze their data without spending extra time learning a new programming language or new methods.
 
